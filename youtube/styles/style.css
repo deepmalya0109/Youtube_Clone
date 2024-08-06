@@ -1,0 +1,70 @@
+.subsbtn{
+    background-color: rgb(218, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    transition: opacity 0.15s;
+}
+.subsbtn:hover{
+    background-color: red;
+    opacity: 0.8;       
+}
+.subsbtn:active{
+    background-color: lightblue;
+}
+.joinbtn{
+    background-color: white;
+    color: blue;
+    border-color: rgb(78, 78, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 1s,color 1s,padding-left 1s,padding-right 1s,padding-top 1s,padding-bottom 1s;
+   
+}
+.joinbtn:hover{
+    background-color: blue;
+    color: white;
+    opacity: 0.8;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.joinbtn:active{
+    opacity: 0.5;
+}
+.tweetbtn{
+    background-color: rgb(0, 109, 252);
+    color: white;
+    height: 36px;
+    width: 105px;
+    border-color: rgb(0, 109, 252);
+    border-style: solid;
+    border-radius: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 1s,color 1s,box-shadow 1s;
+    
+}
+.tweetbtn:hover{
+    background-color: white;
+    color: rgb(0, 109, 252);
+    box-shadow: 5px 5px 10px rgba(0,0, 0,0.30)
+}
+.tweetbtn:active{
+    background-color:blue;
+}
